@@ -9,31 +9,33 @@ export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
 
 const images = [
-  { 
-    id: 1, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901010/dkbn0tuog4srfptvvnyw.jpg',
+
+     { 
+    id:1, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979811/IMG_0175.JPG_vojed2.jpg',
     alt: 'Our engagement day' 
   },
   { 
     id: 2, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901010/dkbn0tuog4srfptvvnyw.jpg',
+    alt: 'Our engagement day' 
+  },
+  
+  { 
+    id: 3, 
     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901011/m4xua8f0hjwnzjhyth52.jpg',
     alt: 'Our engagement day' 
   },
 
-  { 
-    id: 3, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901007/lktepgaxe5egbrad8v6k.jpg',
-    alt: 'Our engagement day' 
-  },
 
-  { 
+    { 
     id: 4, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901009/akxythom9qmzzflr9ydo.jpg',
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979627/IMG_2665.JPG_njqrvu.jpg',
     alt: 'Our engagement day' 
   },
 
   { 
-    id: 5, 
+    id:5, 
     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979620/IMG_2661.JPG_sxvsh1.jpg',
     alt: 'Our engagement day' 
   },
@@ -43,15 +45,15 @@ const images = [
     alt: 'Our engagement day' 
   },
 
-    { 
-    id: 7, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979627/IMG_2663.JPG_koznil.jpg',
+   { 
+    id:7, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901007/lktepgaxe5egbrad8v6k.jpg',
     alt: 'Our engagement day' 
   },
 
-    { 
+  { 
     id: 8, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979627/IMG_2665.JPG_njqrvu.jpg',
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901009/akxythom9qmzzflr9ydo.jpg',
     alt: 'Our engagement day' 
   },
 
@@ -68,9 +70,9 @@ const images = [
     alt: 'Our engagement day' 
   },
 
-    { 
-    id:11, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979811/IMG_0175.JPG_vojed2.jpg',
+   { 
+    id: 11, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979627/IMG_2663.JPG_koznil.jpg',
     alt: 'Our engagement day' 
   },
 

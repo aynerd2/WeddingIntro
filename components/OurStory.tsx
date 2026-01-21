@@ -46,12 +46,11 @@ export default function OurStory() {
                 <h3 className="font-display text-4xl mb-2 text-deep-black">Jumoke</h3>
                 <p className="font-elegant italic text-lg mb-4 text-smoke">The Bride</p>
                 <p className="font-sans text-base leading-relaxed text-deep-black">
-                  From the moment I met Bankole, I knew my life would never be the same. 
-                  His kindness, humor, and unwavering support have shown me what true love means. 
-                  Every day with him is an adventure, and I cannot wait to spend forever laughing, 
-                  dreaming, and building our future together. He is my best friend, my confidant, 
-                  and the love of my life. Valentine's Day has always been special, but this year, 
-                  it becomes the day we promise forever to each other.
+                  I met Bankole in 2021 at Easy’s Office (My Boss at the time) A handsome, lively, and sweet soul….. from the moment he made his intentions known, my heart felt a deep, unexplainable peace.
+                  I knew he was my perfect human. His kindness, humor, and unwavering support continue to show me that true love truly exists.
+                  Life with him is an adventure filled with laughter, growth, and endless dreams. He is my best friend, my confidant, and the love of my life. With him, I have found safety, joy, and a love that feels like home.
+                  Valentine’s Day has always been special, but this year, it becomes the day we promise forever to each other 🥹❤️
+                  Dear Lord, we place our home in Your hands. 🙏🏾
                 </p>
               </div>
             </div>
