@@ -5,16 +5,8 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
 
 export default function Gallery() {
+
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
-
-  // Placeholder images - replace with actual photo URLs
-//   const images = Array.from({ length: 30 }, (_, i) => ({
-//     id: i + 1,
-//     url: `https://picsum.photos/800/1000?random=${i + 1}`,
-//     alt: `Pre-wedding photo ${i + 1}`,
-//   },
-// ))
-
 
 const images = [
   { 
@@ -39,6 +31,51 @@ const images = [
     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901009/akxythom9qmzzflr9ydo.jpg',
     alt: 'Our engagement day' 
   },
+
+  { 
+    id: 5, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979620/IMG_2661.JPG_sxvsh1.jpg',
+    alt: 'Our engagement day' 
+  },
+    { 
+    id: 6, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979624/IMG_2667.JPG_sauprj.jpg',
+    alt: 'Our engagement day' 
+  },
+
+    { 
+    id: 7, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979627/IMG_2663.JPG_koznil.jpg',
+    alt: 'Our engagement day' 
+  },
+
+    { 
+    id: 8, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979627/IMG_2665.JPG_njqrvu.jpg',
+    alt: 'Our engagement day' 
+  },
+
+
+    { 
+    id: 9, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979812/IMG_0156.JPG_lbq01p.jpg',
+    alt: 'Our engagement day' 
+  },
+
+    { 
+    id: 10, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979811/IMG_0168.JPG_ljwsi1.jpg',
+    alt: 'Our engagement day' 
+  },
+
+    { 
+    id:11, 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979811/IMG_0175.JPG_vojed2.jpg',
+    alt: 'Our engagement day' 
+  },
+
+  
+
 ]
 
   const openLightbox = (index: number) => {

@@ -143,7 +143,7 @@ const groomsmen = [
     name: 'Oluwatobi FALUSI',
     nickname: 'PHALUS',
     instagram: '@Luwalusi',
-    image: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768900954/xyikuf2j4fzcwvexx8zl.jpg',  
+    image: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979370/IMG_3303.JPG_hkfb2w.jpg',  
     statement: 'I wish you a lifetime of happiness, shared dreams and countless beautiful memories.',
   },
 

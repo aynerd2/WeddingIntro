@@ -109,7 +109,7 @@ export default function OurStory() {
               </div>
               <h4 className="font-elegant text-2xl mb-3 text-deep-black">First Met</h4>
               <p className="font-sans text-smoke">
-                Our eyes met across a crowded room, and we both knew something magical was about to begin.
+                We met in his mentor’s office, our eyes locked and in that instant, a quiet spark ignited a love we both felt instantly 
               </p>
             </div>
             
@@ -119,7 +119,7 @@ export default function OurStory() {
               </div>
               <h4 className="font-elegant text-2xl mb-3 text-deep-black">Fell in Love</h4>
               <p className="font-sans text-smoke">
-                Through countless conversations and shared dreams, our friendship blossomed into an unbreakable bond.
+                We fell in love through a series of heartfelt conversations, shared moments filled with laughter and purpose, meaningful activities together, and, above all, the gentle and undeniable intervention of God guiding our hearts.
               </p>
             </div>
             
@@ -129,7 +129,7 @@ export default function OurStory() {
               </div>
               <h4 className="font-elegant text-2xl mb-3 text-deep-black">The Proposal</h4>
               <p className="font-sans text-smoke">
-                A perfect moment under the stars when one question changed our lives forever: "Will you marry me?"
+               Our proposal was so beautiful, the night was magical, filled with love and that was the easiest Yes we’ve ever said in our lives
               </p>
             </div>
           </div>
@@ -138,3 +138,6 @@ export default function OurStory() {
     </section>
   )
 }
+
+
+// node node_modules/next/dist/bin/next dev
