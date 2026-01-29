@@ -1,3 +1,4 @@
+
 'use client'
 // https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901007/ljf8r1yu8okb0htc0guq.jpg
 import { useState } from 'react'
@@ -8,72 +9,117 @@ export default function Gallery() {
 
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
 
+// const images = [
+
+//      { 
+//     id:1, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979811/IMG_0175.JPG_vojed2.jpg',
+//     alt: 'Our engagement day' 
+//   },
+//   { 
+//     id: 2, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901010/dkbn0tuog4srfptvvnyw.jpg',
+//     alt: 'Our engagement day' 
+//   },
+  
+//   { 
+//     id: 3, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901011/m4xua8f0hjwnzjhyth52.jpg',
+//     alt: 'Our engagement day' 
+//   },
+
+
+//     { 
+//     id: 4, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979627/IMG_2665.JPG_njqrvu.jpg',
+//     alt: 'Our engagement day' 
+//   },
+
+//   { 
+//     id:5, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979620/IMG_2661.JPG_sxvsh1.jpg',
+//     alt: 'Our engagement day' 
+//   },
+//     { 
+//     id: 6, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979624/IMG_2667.JPG_sauprj.jpg',
+//     alt: 'Our engagement day' 
+//   },
+
+//    { 
+//     id:7, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901007/lktepgaxe5egbrad8v6k.jpg',
+//     alt: 'Our engagement day' 
+//   },
+
+//   { 
+//     id: 8, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901009/akxythom9qmzzflr9ydo.jpg',
+//     alt: 'Our engagement day' 
+//   },
+
+
+//     { 
+//     id: 9, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979812/IMG_0156.JPG_lbq01p.jpg',
+//     alt: 'Our engagement day' 
+//   },
+
+//     { 
+//     id: 10, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979811/IMG_0168.JPG_ljwsi1.jpg',
+//     alt: 'Our engagement day' 
+//   },
+
+//    { 
+//     id: 11, 
+//     url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979627/IMG_2663.JPG_koznil.jpg',
+//     alt: 'Our engagement day' 
+//   },
+
+  
+
+// ]
+
+
+
+
+
 const images = [
 
      { 
     id:1, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979811/IMG_0175.JPG_vojed2.jpg',
-    alt: 'Our engagement day' 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1769700047/p4_tcc1sa.jpg',
+    alt: 'J&B' 
   },
   { 
     id: 2, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901010/dkbn0tuog4srfptvvnyw.jpg',
-    alt: 'Our engagement day' 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1769700043/p5_idvqup.jpg',
+    alt: 'J&B' 
   },
   
   { 
     id: 3, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901011/m4xua8f0hjwnzjhyth52.jpg',
-    alt: 'Our engagement day' 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1769700043/p3_jkyt05.jpg',
+    alt: 'J&B' 
   },
 
 
     { 
     id: 4, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979627/IMG_2665.JPG_njqrvu.jpg',
-    alt: 'Our engagement day' 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1769700043/p6_ezveb2.jpg',
+    alt: 'J&B' 
   },
 
   { 
     id:5, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979620/IMG_2661.JPG_sxvsh1.jpg',
-    alt: 'Our engagement day' 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1769700042/p2_ectyna.jpg',
+    alt: 'J&B' 
   },
     { 
     id: 6, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979624/IMG_2667.JPG_sauprj.jpg',
-    alt: 'Our engagement day' 
-  },
-
-   { 
-    id:7, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901007/lktepgaxe5egbrad8v6k.jpg',
-    alt: 'Our engagement day' 
-  },
-
-  { 
-    id: 8, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901009/akxythom9qmzzflr9ydo.jpg',
-    alt: 'Our engagement day' 
-  },
-
-
-    { 
-    id: 9, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979812/IMG_0156.JPG_lbq01p.jpg',
-    alt: 'Our engagement day' 
-  },
-
-    { 
-    id: 10, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979811/IMG_0168.JPG_ljwsi1.jpg',
-    alt: 'Our engagement day' 
-  },
-
-   { 
-    id: 11, 
-    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768979627/IMG_2663.JPG_koznil.jpg',
-    alt: 'Our engagement day' 
+    url: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1769700042/p1_ibj3dt.jpg',
+    alt: 'J&B' 
   },
 
   

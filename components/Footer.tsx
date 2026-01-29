@@ -1,3 +1,5 @@
+
+
 'use client'
 
 import { motion } from 'framer-motion'
@@ -15,9 +17,9 @@ export default function Footer() {
           className="text-center"
         >
           {/* Names */}
-          <h3 className="font-display text-5xl md:text-6xl mb-4">
-            J & B
-          </h3>
+          
+
+        
 
           {/* Date */}
           <p className="font-elegant text-xl italic mb-8 text-smoke">
@@ -27,7 +29,7 @@ export default function Footer() {
           {/* Divider */}
           <div className="flex items-center justify-center gap-4 mb-8">
             <div className="w-16 h-px bg-deep-black opacity-30" />
-            <Heart className="w-5 h-5 fill-deep-black/30 text-deep-black/30" />
+            <Heart className="w-5 h-5 fill-purple-accent/50 text-purple-accent/50 animate-pulse-slow" />
             <div className="w-16 h-px bg-deep-black opacity-30" />
           </div>
 
@@ -66,3 +68,5 @@ export default function Footer() {
     </footer>
   )
 }
+
+

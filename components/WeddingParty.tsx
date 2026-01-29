@@ -201,6 +201,15 @@ const groomsmen = [
     statement: 'Communicate, communicate, communicate 💬Laugh together often 😂Support each other\'s dreams 🌟Forgive and move forward 💫\nCherish the little moments ❤️',
   },
 
+
+  {
+    name: 'Olufemi Derick O',
+    nickname: 'Derick',
+    instagram: '@Shot_By_Derick',
+    image: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1769700267/b1_ocoted.jpg',  
+    statement: 'Congrats on finding your forever! 😊 May your love continue to be the guiding light in your life, just like it has been. Wishing you a lifetime of laughter, adventures, and I love yous.',
+  },
+
 ]
 
 

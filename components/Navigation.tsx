@@ -1,3 +1,9 @@
+
+
+
+
+
+
 'use client'
 
 import { useState, useEffect } from 'react'
@@ -20,7 +26,7 @@ export default function Navigation() {
     { name: 'Our Story', href: '#our-story' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Wedding Party', href: '#wedding-party' },
-    // { name: 'Guest Gallery', href: '#guest-gallery' },
+    { name: 'Guest Gallery', href: '#guest-gallery' },
     { name: 'Gift Us', href: '#gift' },
   ]
 
@@ -47,11 +53,15 @@ export default function Navigation() {
             {/* Logo */}
             <motion.a
               href="#"
-              className="font-display text-2xl md:text-3xl cursor-pointer"
+              className="cursor-pointer flex items-center"
               whileHover={{ scale: 1.05 }}
               onClick={() => scrollToSection('#')}
             >
-              J & B
+              <img 
+                src="https://res.cloudinary.com/dq8jo2bf7/image/upload/v1769703560/jblog_hvpezh.png" 
+                alt="J & B Wedding" 
+                className="h-12 md:h-16 w-auto object-contain"
+              />
             </motion.a>
 
             {/* Desktop Navigation */}
@@ -66,7 +76,7 @@ export default function Navigation() {
                   transition={{ delay: index * 0.1 }}
                 >
                   {item.name}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-current transition-all duration-300 group-hover:w-full" />
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-accent transition-all duration-300 group-hover:w-full" />
                 </motion.button>
               ))}
             </div>
