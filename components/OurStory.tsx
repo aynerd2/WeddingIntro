@@ -34,9 +34,9 @@ export default function OurStory() {
           transition={{ duration: 0.8 }}
           className="mb-20"
         >
-          <div className="bg-pearl p-8 md:p-12 rounded-sm border-t-4 border-purple-accent">
+          <div className="bg-pearl p-8 md:p-12 rounded-xl border-t-4 border-black shadow-lg">
             <div className="flex items-start gap-6">
-              <div className="hidden md:block w-32 h-32 bg-deep-black rounded-sm flex-shrink-0 overflow-hidden ring-2 ring-purple-accent/30">
+              <div className="hidden md:block w-32 h-32 bg-deep-black rounded-2xl flex-shrink-0 overflow-hidden">
                 <img
                   src="https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901009/v30i05s6ehah1ssqgyga.jpg"
                   alt="Jumoke"
@@ -65,25 +65,29 @@ export default function OurStory() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <div className="bg-gradient-to-br from-deep-black to-charcoal text-soft-white p-8 md:p-12 rounded-sm border-t-4 border-purple-accent">
+          <div className="bg-pearl p-8 md:p-12 rounded-xl border-t-4 border-black shadow-lg">
             <div className="flex items-start gap-6 flex-row-reverse">
-              <div className="hidden md:block w-32 h-32 bg-soft-white rounded-sm flex-shrink-0 overflow-hidden ring-2 ring-purple-accent/30">
+              <div className="hidden md:block w-32 h-32 bg-soft-white rounded-2xl flex-shrink-0 overflow-hidden ring-2 ring-purple-accent/30">
                 <img
                   src="https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768901052/eb0wi9mhny7foyzzre55.jpg"
                   alt="Bankole"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="text-right">
-                <h3 className="font-display text-4xl mb-2">Bankole</h3>
+              <div>
+                <h3 className="font-display text-4xl mb-2 text-deep-black">Bankole</h3>
                 <p className="font-elegant italic text-lg mb-4 text-purple-accent">The Groom</p>
-                <p className="font-sans text-base leading-relaxed">
-                  Jumoke walked into my life and changed everything. Her smile brightens my darkest days, 
-                  her strength inspires me to be better, and her love has taught me what it means to truly 
-                  be seen and accepted. She is my anchor, my joy, and my greatest blessing. As we prepare 
-                  to say "I do" on the most romantic day of the year, I am filled with gratitude for every 
-                  moment that led us here. I promise to cherish her, honor her, and love her with everything 
-                  I have, today and always.
+                <p className="font-sans text-base leading-relaxed text-deep-black">
+                  I met my wife in the most unexpected place my mentor’s office. I had gone there like I always did, with respect, focus, and my usual serious face. I wasn’t searching for love. I wasn’t even thinking about marriage that day. Then she walked in, and somehow the whole atmosphere changed. What started as a simple introduction turned into conversations that flowed effortlessly, filled with laughter, curiosity, and an unexplainable sense of familiarity.
+
+                  My wife will always say I ‘Me ? I Cannot marry you ! I laughed
+                  At the time, it sounded like one of those jokes you laugh off and move past. But deep down, something told me that this connection was different.
+
+                  Days turned into weeks, and weeks into something deeper. Conversations became intentional, prayers became shared, and friendship slowly transformed into love. What people joked about, God was quietly working on. What seemed impossible or funny to others became clear and purposeful to us.
+
+                  Today, when I look at my wife, I smile every time I remember that joke. Because here we are growing, learning, building, and loving each other through every season. The same mentor’s office that witnessed our first meeting now stands as a reminder that destiny doesn’t always announce itself loudly. Sometimes it walks in quietly, sits beside you, and changes your life forever.
+
+                  Life has a beautiful way of proving that God’s plans will always override human jokes, opinions, and assumptions. She said  she couldn’t marry me… but love, grace, and God had the final say and here we are now.
                 </p>
               </div>
             </div>

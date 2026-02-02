@@ -8,7 +8,7 @@ const bridesmaids = [
   {
     name: 'Abolaji Abigael Omotayo',
     nickname: 'TSplash',
-    instagram: '@sarahjay',
+    instagram: '',
     image: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768900951/jddiclhdylfbr2mzcpk9.jpg',  
     statement: 'May you both be a safe place for each other,full of trust, warmth and enduring love',
   },
@@ -107,8 +107,22 @@ const bridesmaids = [
     image: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1768900951/i8ahv7fhqbbdwifvjaud.jpg',  
     statement: 'You both found something rare and special in each other. May your love continue to grow stronger through every season of life❤️',
   },
+  {
+    name: 'Adeleke Kehinde Moyosoluwa',
+    nickname: 'Khizzy',
+    instagram: '@moyo_so_luwa',
+    image: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1770031592/b55_sfdaqf.jpg',  
+    statement: 'Your love will flourish, your hearts will remain united, and your marriage will be filled with joy and beauty, in Jesus’ name. 🙏🏾',
+  },
+
 
 ]
+
+
+
+
+
+
 
 const groomsmen = [
   {
@@ -208,6 +222,23 @@ const groomsmen = [
     instagram: '@Shot_By_Derick',
     image: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1769700267/b1_ocoted.jpg',  
     statement: 'Congrats on finding your forever! 😊 May your love continue to be the guiding light in your life, just like it has been. Wishing you a lifetime of laughter, adventures, and I love yous.',
+  },
+
+
+    {
+    name: 'ISRAEL OOSS',
+    nickname: 'OOSSBABA',
+    instagram: '@israel_ooss',
+    image: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1770035612/b22_bm2viy.jpg',  
+    statement: 'I strongly believe in both of you and I know your marriage will be a model and your kids will be happy to have you both has parents; so guys, never stop doing the work.',
+  },
+
+  {
+    name: 'Ogunlade Ayobami',
+    nickname: 'aynerd',
+    instagram: '@aynerd95',
+    image: 'https://res.cloudinary.com/dq8jo2bf7/image/upload/v1770032006/ay_tbuyco.jpg',  
+    statement: 'Be friends. Stay locked in. Just you two and God—nothing else. A three-fold cord is never easily broken. Congratulations on your wedding!',
   },
 
 ]

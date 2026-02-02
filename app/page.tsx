@@ -15,7 +15,7 @@ export default function Home() {
       <OurStory />
       <Gallery />
       <WeddingParty />
-      {/* <GuestGallery /> */}
+      <GuestGallery />
       <GiftSection />
       <Footer />
     </main>
